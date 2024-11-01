@@ -1,0 +1,41 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.container{
+   background-color: gray;
+   width: 40vw;
+   padding: 20px;
+   margin: auto;
+}
+.box{
+   margin: 0px 100px 30px 100px;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: white;
+}
+button{
+   border-radius: 30px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:none;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+button:hover{
+   cursor: pointer;
+}
+.container :nth-child(1)>button{
+   background-color: green;
+}
+.container :nth-child(2)>button{
+   background-color: orange;
+   color: black;
+}
+.container :nth-child(3)>button{
+   background-color: purple;
+}
