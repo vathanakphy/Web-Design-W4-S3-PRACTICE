@@ -1,0 +1,200 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.profile-card{
+   border: 1px solid black;
+   width: 329px;
+   height: 90vh;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.profile-img{
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border: 1px solid black;
+   border-radius: 50%;
+   position: absolute;
+   width: 110px;
+   height: 110px;
+   background-image: url("./img/me.png");
+   background-size: cover;
+}
+.bg-img{
+   background-image: url("./img/forest.jfif");
+   background-size:cover;
+   width:100%;
+   height: 182px;
+}
+.infor{
+   height: 419px;
+   width: 100%;
+}
+.infor-usr{
+   position: absolute;
+   top: 43%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.follow{
+   position: absolute;
+   width: 100%;
+   top: 49%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.follow>span{
+   margin: 0px 10px 0px 10px;
+}
+.follow>strong{
+   font-weight: bolder;
+}
+.btn{
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1px solid black;
+   margin-top: 10px 15px 10px 15px;
+}
+.btn >button{
+   width: 110px;
+   height: 28px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   border-radius: 50px;
+   border: none;
+   margin: 15px;
+}
+.btn >button:hover{
+   background-color: rgb(50, 50, 50);
+   color: rgb(225, 222, 240);
+   cursor: pointer;
+}
+.navigation{
+   position: absolute;
+   top: 62%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navigation >a{
+   text-decoration: none;
+   display: inline;
+   color: #8A8A8A;
+   font-size: 12px;
+   margin: 0px 25px 0px 25px;
+}
+.navigation >a:hover{
+   cursor: pointer;
+   color: black;
+}
+.navigation >a:nth-child(2){
+   text-decoration: underline;
+}
+.box{
+   position: absolute;
+   top: 81%;
+   width: 90%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: grid;
+   grid-template-columns: 140px 140px;
+   gap: 10px 15px;
+   font-size: 12px;
+}
+.list-friend{
+   width: 150px;
+   height: 180px;
+   background-color: rgb(235, 235, 233);
+   border-radius: 10px;
+   overflow-y: scroll;
+}
+.friends-show{
+   width: 34px;
+   height: 34px;
+   background-color: rgb(0, 0, 0);
+   border-radius: 50%;
+   margin: 10px 10px 15px 10px;
+   display: flex;
+   align-items: center;
+}
+.friends-show>p{
+   margin-left: 40px;
+}
+.friends-show:nth-child(2){
+   background-image: url("./img/nah.jpg");
+   background-size: cover;
+}
+.friends-show:nth-child(3){
+   background-image: url("./img/nha-jor.jpg");
+   background-size: cover;
+}
+.friends-show:nth-child(4){
+   background-image: url("./img/heng.jpg");
+   background-size: cover;
+}
+.friends-show:nth-child(5){
+   background-image: url("./img/bunna.jpg");
+   background-size: cover;
+}
+.friends-show:nth-child(6){
+   background-image: url("./img/setha.jpg");
+   background-size: cover;
+}
+h4{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.basic-infor{
+   font-size: 11px;
+   width: 140px;
+   height: 180px;
+   padding: 10px;
+   border-left: 1px solid black;
+}
+.basic-infor>div{
+   margin-bottom:10px;
+}
+h5{
+   margin-bottom: 7px;
+}
+.text{
+   grid-column: 1/3;
+}
+address{
+   font-size: 9px;
+   display: block;
+}
+.basic-infor img{
+   margin-right: 10px;
+}
+.basic-infor img:hover{
+   cursor: pointer;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+a:hover{
+   color: rgb(157, 154, 154);
+   cursor: pointer;
+}
+.text{
+   text-align: center;
+}
+
+
